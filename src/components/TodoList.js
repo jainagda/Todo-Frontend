@@ -44,7 +44,7 @@ export default function TodoList({ todos, setEditingTodo, deleteTodo }) {
                 onClick={() => deleteTodo(todo.id)}
                 className="px-3 py-1 text-sm bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
               >
-                🗑 Delete
+                🗑 Delete Button
               </button>
             </div>
           </motion.div>
